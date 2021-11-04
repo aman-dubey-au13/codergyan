@@ -1,0 +1,15 @@
+GET http://localhost:4000/
+###
+GET http://localhost:4000/api/register
+
+###
+POST  http://localhost:4000/api/register
+content-type: application/json
+
+{
+    "name": "aman",
+    "email": "amandubey9871@gmail.com",
+    "password":"secret",
+    "repeat_password":"secret"
+
+}
